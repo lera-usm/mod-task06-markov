@@ -17,5 +17,5 @@ class textgen
 	map<prefix, vector<string>> get_table();
 	private: 
 	map<prefix, vector<string>> statetab;
-	const int col=2;
+	int col=2;
 };
